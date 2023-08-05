@@ -19,8 +19,7 @@ ul {
     letter-spacing: 0.03em;
 }
 .header {
-    background-color:#FFFFFF;
-}
+    background-color:#FFFFFF}
     h1,
     h2,
     h3 {
@@ -60,6 +59,7 @@ ul {
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.28px;
+    text-decoration: none;
 }
 .site-nav a:hover,
 .site-nav a:focus {
@@ -117,7 +117,6 @@ ul {
     text-align: center;
     
 }
-
 /* Features */
 .Features .title {
     color: var(--title-text-color);
@@ -147,7 +146,8 @@ ul {
 }
     /*Футер */
  .footer,
-  .footer .logo,
+  .footer .logo {color: #ffffff ;
+        background-color: #2F303A;}  
   .footer p {
     color: #FFFFFF;
     background-color:#2F303A;
@@ -179,6 +179,7 @@ ul {
 /* колір фону героя  та футера #2F303A */
 
 /* Портфоліо */
+a {text-decoration: none;}
 .site-nav-portfolio button{
     color: var(--title-text-color);
     background-color: var(--special-background-color);
