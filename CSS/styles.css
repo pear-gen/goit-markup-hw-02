@@ -122,6 +122,7 @@ ul {
     color: var(--title-text-color);
 
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
 }
 
@@ -179,7 +180,8 @@ ul {
 /* колір фону героя  та футера #2F303A */
 
 /* Портфоліо */
-a {text-decoration: none;}
+a {text-decoration: none;
+color: var(--primary-text-color)}
 .site-nav-portfolio button{
     color: var(--title-text-color);
     background-color: var(--special-background-color);
